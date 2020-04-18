@@ -28,7 +28,7 @@ const searchscreen = () => {
                 onTermChange={setTerm}
                 onTermSubmit={searchApi}
             />
-            <Text>we have found {results.length} results</Text>
+            <Text>We have found {results.length} Results</Text>
         </View>
     )
 }
